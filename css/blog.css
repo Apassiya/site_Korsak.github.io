@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/Фон2.png);
+}
+.grid-container {
+    grid-template-rows: 94px 131px 500px 111px;
+}
+.grid_logo {
+    grid-column: 1 / 11;
+    grid-row: 2;
+    text-align: center;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.grid_blog {
+    grid-column: 1 / 11;
+    grid-row: 3;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+.post {
+    width: 600px;
+    margin: 0 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.img_post {
+    width: 500px;
+    border: solid 10px #7cbdc5;
+}
+.text_post {
+    color: #e2e0df;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: auto;
+    font-size: 50px;
+    font-family: 'Gabriela';
+    text-shadow: 1px 1px 1px #3c3030, 0 0 0em;
+}
+@media all and (max-width: 800px) {
+    .post {
+        margin-right: 35%;
+    }
+    .logo {
+        margin-right: 25%;
+    }
+}

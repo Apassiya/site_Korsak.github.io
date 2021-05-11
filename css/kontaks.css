@@ -1,0 +1,68 @@
+body {
+    background-image: url(../img/Фон.png);
+}
+.grid-container {
+    grid-template-rows: 94px 75px 658px 139px;
+}
+.grid_kontaks {
+    grid-column: 1 / 11;
+    grid-row: 3;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+.post {
+    width: 600px;
+    margin: 0 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 40%;
+}
+.img_post {
+    width: 500px;
+    border: solid 10px #7cbdc5;
+}
+.uzor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.uzor_x {
+    margin: 0 6px;
+}
+.text_post {
+    color: #e2e0df;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: auto;
+    font-size: 75px;
+    font-family: 'Gabriela';
+    text-shadow: 1px 1px 1px #3c3030, 0 0 0em;
+}
+
+@media all and (max-width: 1500px) {
+    .post {
+        margin-left: 30%;
+    }
+}
+@media all and (max-width: 800px) {
+    .post {
+        margin-left: 0%;
+        margin-right: 30%;
+    }
+    body {
+        background-image: url(../img/Фон2.png);
+    }
+}

@@ -1,0 +1,138 @@
+body {
+    background-image: url(../img/Фон2.png);
+}
+.text_name {
+    font-size: 50px;
+}
+.grid-container {
+    grid-template-rows: 94px 100px 80px 500px 111px;
+}
+.grid_name {
+    grid-column: 1 / 11;
+    grid-row: 2;
+    text-align: center;
+}
+.grid_uzor {
+    grid-column: 1 / 11;
+    grid-row: 3;
+    text-align: center;
+    vertical-align: middle;
+}
+.grid_shop {
+    grid-column: 1 / 11;
+    grid-row: 4;
+    text-align: center;
+}
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}         
+.positions {
+    width: 250px;
+    margin: 0 100px;
+    margin-bottom: 50px;
+    align-items: center;
+}    
+.foto_tovar {
+    height: 200px;
+    border: solid 5px #7cbdc5;
+}
+.name_coffe {
+    color: #e2e0df;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: auto;
+    font-size: 24px;
+    font-family: 'Gabriela';
+    text-shadow: 1px 1px 1px #3c3030, 0 0 0em;
+    text-align: center;
+}
+.money {
+    width: 205px;
+    height: 50px;
+    border: 1px solid #e2e0df;
+    color: #e2e0df;
+    vertical-align: middle;
+}
+.s_price {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+    font-size: 24px;
+}
+.button_shop {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e2e0df;
+    color: #e2e0df;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Arial';
+    background: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #3c3030, 0 0 0em;
+}
+
+.button_shop:hover {
+    background: none;
+    border: 1px solid #7cbdc5;
+    color: #7cbdc5;
+    opacity: 0,8;
+    background-color: #7cbdc5;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+.price {
+    display: flex;
+    width: 260px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: auto;
+    flex-wrap: wrap;
+}
+button[name="more"]{
+    border: 1px solid #e2e0df;
+    color: #e2e0df;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Arial';
+    background: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #3c3030, 0 0 0em;
+}
+button:hover {
+    background: none;
+    border: 1px solid #7cbdc5;
+    color: #7cbdc5;
+    opacity: 0,8;
+}
+@media all and (max-width: 800px) {
+    .positions {
+        margin-right: 18%;
+        margin-left: -8%;
+    }
+    .grid_name {
+        margin-right: 25%;
+    }
+    .grid_uzor {
+        margin-right: 25%;
+    }
+}
